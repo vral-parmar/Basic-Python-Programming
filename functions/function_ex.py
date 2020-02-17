@@ -78,7 +78,7 @@ len(50)
 print('Calling With Multiple Value')
 len(47,50,45,55,74)
 
-'''
+
 #passing a list as arguments
 def func(x):
     for i in x:
@@ -93,3 +93,17 @@ print(cal(3))
 print(cal(4))
 print(cal(5))
 print(cal(6))
+
+#recursion using function calling again and again
+def tri(k):
+    if k > 0:
+        result = k + tri(k - 1)
+        print(result)
+    else:
+        result = 0
+    return result
+
+print('Recursion Example: ')
+tri(6)
+
+'''
