@@ -1,0 +1,5 @@
+f = open("File Methods/demofile.txt", "r")
+print(f.read())
+f.flush()
+print("uc\n", f.read())
+# f.write("...and another one!")
